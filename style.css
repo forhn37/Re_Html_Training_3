@@ -1,63 +1,72 @@
 /* body css 설정 */
 * {
   margin: 0;
-  padding: 0;
+  padding: 10px;
   box-sizing: border-box;
+  
 }
 
-#root  {
+#root {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 1390px;
   height: 850px;
-  border-style: solid;
+  background-color: gray;
 }
+
 /* 상위 컨텐츠부터 진행 */
 .UPBOX {
   width: 1240px;
   height: 400px;
-  border-style: solid;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: gainsboro;
 }
+
 .DOWNBOX {
   width: 1240PX;
   height: 400PX;
-  border-style: solid;
+
   margin-top: 20px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: gainsboro;
 }
+
 /* UPBOX내부 DIV스타일링 */
 .UPBOX_Leftbox {
   width: 370px;
   height: 360px;
-  border-style: solid;
+  background-color: white;
 }
+
 .UPBOX_Rightbox {
   width: 840px;
   height: 360px;
-  border-style: solid;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
+
 /* UPBOX_Rightbox 안 박스 스타일링 */
 
 .UPBOX_Rightbox_upbox {
   width: 810px;
   height: 240px;
-  border-style: solid;
+  font-size: 10px;
 }
+
 .UPBOX_Rightbox_downbox {
   width: 810px;
   height: 95px;
-  border-style: solid;
+  color: gray;
+  font-style: italic;
+  font-size: 30px;
 }
 
 /* DOWNBOX내부 DIV스타일링 */
@@ -65,24 +74,29 @@
 .DOWNBOX_Leftbox {
   width: 370px;
   height: 360px;
-  border-style: solid;
+  font-size: 12px;
 }
+
 .DOWNBOX_Rightbox {
   width: 840px;
   height: 360px;
-  border-style: solid;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
+
 .DOWNBOX_Rightbox_leftbox {
   width: 550px;
   height: 335px;
-  border-style: solid;
+  font-size: 12px;
 }
+
 .DOWNBOX_Rightbox_rightbox {
   width: 270px;
   height: 335px;
-  border-style: solid;
+  font-size: 12px;
 }
 
+span {
+  color: red;
+}
